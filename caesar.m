@@ -6,7 +6,7 @@ for i=1:length(num)
         num(i)= num(i) +126 -32 + 1; %which is +95, but I wrote it like this to be easier to imagine
     end
     while num(i) > 126
-        num(i) = num(i) -126 + 32 -1; &which is equal to -95
+        num(i) = num(i) -126 + 32 -1; %which is equal to -95
     end
 end
 coded = char(num)
